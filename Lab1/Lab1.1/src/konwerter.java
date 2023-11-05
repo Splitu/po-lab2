@@ -35,7 +35,7 @@ public class konwerter extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 value = Double.parseDouble(textField1.getText());
                 score = value * 9 / 5 + 32;
-                textField2.setText(String.valueOf(score));
+                textField2.setText(String.valueOf(score) + "°F");
             }
         });
     }
